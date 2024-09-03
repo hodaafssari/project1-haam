@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Art 109 First Project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -36,9 +35,11 @@
 
     <h1>Could You Resist? Phone vs Nature</h1>
 
-    <img src="Assests/outside.jpeg" width="200" height="200">
-    <img src="Assests/phone.jpeg" width="200" height="200">
-    <img src="Assests/Workout.jpg" width="200" height="200">
+    <picture>
+      <source media="(min-width:650px)" srcset="Assests/outside.jpeg">
+      <source media="(min-width:465px)" srcset="Assests/phone.jpeg">
+      <img src="Assests/Workout.jpg" alt="Flowers"  >
+    </picture>
     <p1>Here in the website Aonee and Hoda did a data based project were we tracked
         how much time we spend on our phones, and compared it to how much time we spend walking
         outside and doing other activites that doesn't invovlve our phone. We went gathered data from
